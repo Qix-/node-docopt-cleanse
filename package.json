@@ -1,0 +1,38 @@
+{
+  "name": "docopt-cleanse",
+  "description": "Clean up your docopt options post-parse",
+  "version": "0.1.0",
+  "author": "Qix (http://github.com/qix-)",
+  "keywords": [
+    "docopt",
+    "clean",
+    "arguments",
+    "options",
+    "command",
+    "line",
+    "cleanse",
+    "keys",
+    "camelcase",
+    "camel",
+    "case"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "pretest": "node_modules/.bin/jshint ./*.js",
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/qix-/node-docopt-cleanse.git"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.17",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5",
+    "should": "^7.0.1"
+  },
+  "dependencies": {
+    "camelcase": "^1.1.0"
+  }
+}
